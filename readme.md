@@ -11,9 +11,11 @@ This chrome extension to help you link to your new account without extra hassle.
 　 例：　your-code,000123456789,your-role,your-code@your-role,development
         your-code,001123456789,your-role,your-code@your-role,production
 
-
+```
   （※）environmentは「development」また「production」を設定してください。
+  
 #### Chrome拡張機能にパッケージをインストール：
+
 ```
 　① Chrome を開く、chrome://extensionsへアクセス。
 　②「パッケージ化されていない拡張機能を読み込む」を選択する。
