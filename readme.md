@@ -1,6 +1,6 @@
 ### 拡張機能のインストール
 AWS management console had a limit to show only last 5 the history of AWS accounts.
-This chrome extension to help you link to your new account without extra hassle.
+This chrome extension help to link to your another aws account without extra hassle.
 
 #### データーの準備：
 + aws_account_roles.csvにデーターを記入する
