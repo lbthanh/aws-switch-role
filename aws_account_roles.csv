@@ -1,0 +1,2 @@
+project_name,aws_account_number,aws_account_role,display_name,environment ⇐　記入したらこの行を削除する
+aloha,000123456789,dev_role,aloha@dev_role,development

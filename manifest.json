@@ -1,0 +1,24 @@
+{
+  "name" : "AWS アカウントの管理",
+  "version" : "1.0",
+  "author":"lb.thanh",
+  "description" : "AWSのアカウントとロールを切り替え",
+  "permissions": [
+      "tabs",
+      "activeTab",
+      "storage"      
+  ],
+  "browser_action": {
+      "default_icon": "aws.png",
+      "default_popup": "popup.html"
+  },  
+  "background": {
+      "scripts" : ["data_processing.js","eventPage.js", "jquery-3.3.1.min.js"],
+      "persistent": false
+  },
+
+  "web_accessible_resources": [
+      "aws_account_roles.csv"
+  ],
+  "manifest_version": 2
+}

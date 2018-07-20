@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> AWSアカウント管理</title>
+    <style>
+        body {
+          overflow: hidden;
+          margin: 0px;
+          padding: 0px;
+          background: white;
+          min-width:300px;
+        }
+    
+        div:first-child {
+          margin-top: 0px;
+        }
+    
+        div {
+          cursor: pointer;
+          text-align: left;
+          padding: 1px 3px;          
+          font-size: 1.0em;
+          width: auto;
+          margin-top: 1px;
+          background: #ffffff;
+        }
+        a:hover {
+          background: #6ddaf5;
+        }
+        #honban {
+          border: 1px solid red;
+          color: red;
+        }        
+        #dev {
+          border: 1px solid green;
+          color: green;
+        }        
+        </style> 
+    <script src="jquery-3.3.1.min.js"></script>    
+    <script src="data_processing.js"></script>    
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h3>AWSアカウント・ロール管理</h3>
+    <div>
+    <div id="dev">開発用</div>
+    <div>
+      <ul id="development_accounts">        
+    </ul>      
+    </div>
+    <div id="honban">本番用</div>
+    <div>
+      <ul id=production_accounts>        
+      </ul>
+    </div>
+  </body>
+</html>
